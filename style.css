@@ -1,0 +1,35 @@
+p{
+	color: white;
+	font-size: 35px;
+	font-family: monospace;
+	font-weight: 2px;
+	background: red;
+	padding: 300px;
+
+}
+h{
+	color: white;
+	font-size: 25px;
+	font-family: monospace;
+	font-weight: 2px;
+	background: red;
+	padding: 30px;
+	text-decoration: underline;
+
+}
+p1{
+	color: white;
+	font-size: 12px;
+	font-family: monospace;
+	font-weight: 1px;
+	background: red;
+	padding: 5px;
+
+}
+a{
+	color: red;
+	font-size: 15px;
+	font-family: monospace;
+	font-weight: 1px;
+	padding: 5px;
+}

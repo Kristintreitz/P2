@@ -1,0 +1,1083 @@
+.letter {
+
+	width:200px; /*resize as you see fit */
+	height:300px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	/*border:40px solid #000;*/ /*feel free to remove or hide this rule */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+	background: white;
+}
+
+
+/*LETTER A*/
+
+#a-right-side{
+	position: absolute;
+	top: 20px;
+	left: 85px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+#a-crossbar{
+	height: 15px;
+	width: 50px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:25px;
+}
+
+#a-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+
+#a-left-side{
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+
+
+
+
+
+/*LETTER B*/
+
+
+#b-right-side{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+#b-crossbar{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:40px;
+}
+
+#b-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+#b-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#b-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+
+
+/*LETTER C*/
+
+#c-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+#c-bottom{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#c-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER D*/
+
+#d-right-side{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+#d-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+#d-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#d-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER E*/
+
+
+#e-crossbar{
+	height: 15px;
+	width: 50px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:40px;
+}
+
+#e-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+#e-bottom{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#e-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER F*/
+
+#f-crossbar{
+	height: 15px;
+	width: 50px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:40px;
+}
+
+#f-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+
+
+#f-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER G*/
+
+#g-right-side{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 170px;
+	width: 15px;
+	background:red;
+}
+
+
+#g-crossbar{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:40px;
+}
+
+#g-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+#g-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#g-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+
+/*LETTER H*/
+
+#h-right-side{
+	position: absolute;
+	top: 20px;
+	left: 85px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+#h-crossbar{
+	height: 15px;
+	width: 50px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:25px;
+}
+
+#h-left-side{
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER I*/
+
+
+#i-top{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:30px;
+}
+#i-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:30px;	
+}
+
+#i-left-side{
+	position: absolute;
+	top: 20px;
+	left: 60px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+/*LETTER J*/
+
+
+
+#j-right-side{
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+
+
+#j-top{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:30px;
+}
+#j-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#j-left-side{
+	position: absolute;
+	top: 120px;
+	left: 31px;
+	height: 150px;
+	width: 20px;
+	  transform: rotate(8deg);
+	background:red;
+}
+
+
+/*LETTER H*/
+
+#k-right-side{
+	position: absolute;
+	top: 100px;
+	left: 70px;
+	height: 170px;
+	width: 15px;
+		transform: rotate(-25deg);
+	background:red;
+}
+
+
+#k-crossbar{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	transform: rotate(-55deg);
+	top: 70px;
+	left:25px;
+}
+
+#k-bottom{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#k-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER L*/
+
+
+#l-bottom{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#l-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;}
+
+/*LETTER M*/
+
+#m-right-side{
+	position: absolute;
+	top: 20px;
+	left: 140px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+#m-crossbar{
+	height: 15px;
+	width: 100px;
+	background:black;
+	transform: rotate(55deg);
+	position: absolute;
+	top: 60px;
+	left:15px;
+}
+
+#m-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	transform: rotate(-55deg);
+	position: absolute;
+	top: 60px;
+	left:70px;
+}
+#m-bottom{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#m-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+/*LETTER N*/
+
+
+
+#n-right-side{
+	position: absolute;
+	top: 20px;
+	left: 140px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+#n-crossbar{
+	height: 15px;
+	width: 260px;
+	background:black;
+	transform: rotate(65deg);
+	position: absolute;
+	top: 140px;
+	left:-35px;
+}
+
+
+#n-bottom{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#n-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER O*/
+
+
+
+#o-right-side{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+#o-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:30px;
+}
+#o-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#o-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER P*/
+
+#p-right-side{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	height: 95px;
+	width: 20px;
+	background:red;
+}
+
+
+#p-crossbar{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:40px;
+}
+
+#p-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+#p-bottom{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#p-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER Q*/
+
+#q-right-side{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+#q-crossbar{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	transform: rotate(40deg);
+	top: 230px;
+	left:70px;
+}
+
+#q-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:30px;
+}
+#q-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#q-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER R*/
+#r-leg{
+	position: absolute;
+	top: 100px;
+	left: 70px;
+	height: 170px;
+	width: 15px;
+	transform: rotate(-25deg);
+	background:red;
+
+}
+
+#r-right-side{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	height: 95px;
+	width: 20px;
+	background:red;
+}
+
+
+#r-crossbar{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:40px;
+}
+
+#r-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+#r-bottom{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#r-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+/*LETTER G*/
+
+#s-right-side{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 170px;
+	width: 20px;
+	background:red;
+}
+
+
+#s-crossbar{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 100px;
+	left:40px;
+}
+
+#s-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:20px;
+}
+#s-bottom{
+	height: 15px;
+	width: 105px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:25px;	
+}
+
+#s-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 100px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER T*/
+
+#t-top{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:30px;
+}
+
+
+#t-left-side{
+	position: absolute;
+	top: 20px;
+	left: 60px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+/*LETTER U*/
+
+
+#u-right-side{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+#u-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#u-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER V*/
+
+
+#v-right-side{
+	position: absolute;
+	top: 20px;
+	left: 110px;
+	transform: rotate(10deg);
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+#v-bottom{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:60px;	
+}
+
+#v-left-side{
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	transform: rotate(-10deg);
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+/*LETTER W*/
+
+#w-right-side{
+	position: absolute;
+	top: 20px;
+	left: 140px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+#w-crossbar{
+	height: 15px;
+	width: 100px;
+	background:black;
+	transform: rotate(55deg);
+	position: absolute;
+	top: 200px;
+	left:70px;
+}
+
+#w-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	transform: rotate(-55deg);
+	position: absolute;
+	top: 200px;
+	left:15px;
+}
+#w-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+/*LETTER X*/
+
+#x-right-side{
+	position: absolute;
+	top: 20px;
+	left: 70px;
+	height: 250px;
+	transform: rotate(-15deg);
+	width: 20px;
+	background:red;
+}
+
+
+#x-bottom{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#x-left-side{
+	position: absolute;
+	top: 20px;
+	left: 60px;
+	height: 250px;
+	transform: rotate(15deg);
+	width: 20px;
+	background:red;
+
+}
+/*LETTER Y*/
+
+#y-crossbar{
+	height: 15px;
+	width: 100px;
+	background:black;
+	transform: rotate(55deg);
+	position: absolute;
+	top: 65px;
+	left:20px;
+}
+#y-bottom{
+	height: 15px;
+	width: 60px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:25px;	
+}
+
+#y-left-side{
+	position: absolute;
+	top: 20px;
+	transform: rotate(20deg);
+	left: 80px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+/*LETTER Z*/
+
+
+
+#z-top{
+	height: 15px;
+	width: 85px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:30px;
+}
+#z-bottom{
+	height: 15px;
+	width: 85px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#z-left-side{
+	position: absolute;
+	top: 20px;
+	left: 55px;
+	height: 250px;
+	width: 20px;
+	  transform: rotate(16deg);
+	background:red;
+}
+
+
+/*NUMBER 0*/
+
+#zero-right-side{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+#zero-top{
+	height: 15px;
+	width: 100px;
+	background:black;
+	position: absolute;
+	top: 20px;
+	left:30px;
+}
+#zero-bottom{
+	height: 15px;
+	width: 80px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:20px;	
+}
+
+#zero-left-side{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+#zero-slash{
+	position: absolute;
+	top: 20px;
+	left: 65px;
+	height: 250px;
+	width: 10px;
+	  transform: rotate(16deg);
+	background:red;
+}
+
+
+/*NUMBER 1*/
+
+
+#one-top{
+	height: 15px;
+	width: 50px;
+	background:black;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 38px;
+	left:45px;
+}
+#one-bottom{
+	height: 15px;
+	width: 70px;
+	background:black;
+	position: absolute;
+	top: 255px;
+	left:50px;	
+}
+
+#one-left-side{
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	height: 250px;
+	width: 20px;
+	background:red;
+}
+
+
+
+/*ewfjhefrkelkjkb*/
+
